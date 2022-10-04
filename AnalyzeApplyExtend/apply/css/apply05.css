@@ -12,6 +12,19 @@ body {
 	background-color: #e4f1f6;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+/* style rule for mobile viewpoint */
+
+
+/*style rule to hide tablet-desk class */
+.tab-desk {
+  display: none;
+}
 /* Style rule for header */
 header {
 	font-family: Verdana, Arial, sans-serif;
@@ -35,6 +48,7 @@ nav ul {
 nav li {
     font-size: 1.5em;
     padding: 4%;
+    font-family: B612,sans-serif;
 }
 
 nav li a {
